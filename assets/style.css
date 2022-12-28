@@ -5,9 +5,22 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: #8085d4;
 }
-
+#side-tab {
+    position:fixed;
+    display: inline-block;
+    background: #8085d4;
+    left: 89vw;
+    padding: 1px 20px;
+    border-radius: 10% 0 0 10%;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(16, 15, 15);
+  
+}
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,7 +34,7 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    color: #8085d4;;
 }
 
 .header div {
@@ -49,10 +62,9 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 600px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../assets/digital-marketing-meeting.jpg");
+    background-image: url("https://johnmccarterconstruction.com/wp-content/uploads/replacement-windows-ann-arbor.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -66,14 +78,18 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+#chewy {
+    max-height: 275px;
+}
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     
 }
-
+.pos {
+    color: #484c82;
+}
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -105,8 +121,8 @@ p {
 
 
 .consolidate {
-    margin-bottom: 20px;
-    padding: 50px;
+    margin-top: 5px;
+    padding: 5px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
@@ -124,6 +140,62 @@ p {
     font-size: 36px;
 }
 
+
+#contact {
+   color: #151413;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #151413;
+    border-radius: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+    
+  input, 
+  textarea {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #4F4846;
+    height: 20px;
+  }
+  
+  #quantity {
+    height: 80px;
+  }
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+
+  .quantity {
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+  }
+    
+  button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+  }
+   
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+
+  li {
+    list-style: none;
+  }
 
 .footer {
     padding: 30px;
